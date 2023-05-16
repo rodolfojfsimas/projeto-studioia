@@ -11,9 +11,12 @@
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
+docker-compose.yml
+Dockerfile
 auth.json
 npm-debug.log
 yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/.docker

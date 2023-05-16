@@ -152,7 +152,8 @@
                         Fique atualizado através
                         de nosso site e
                         canal
-                        do <i class="bi bi-youtube" style="color: red;"></i> YouTube, onde fornecemos detalhes sobre todas
+                        do <a href="https://www.youtube.com/@StudioIA-ic1rt" target="_blank"><i class="bi bi-youtube"
+                                style="color: red;"></i> YouTube</a>, onde fornecemos detalhes sobre todas
                         as etapas e comandos
                         utilizados.
                     </h5>
@@ -415,7 +416,9 @@
                         type="button">Sugestões de Projetos</a>
                     <hr>
                     <h5> <i class="bi bi-whatsapp"></i> (11) 98623-9705</h5>
-                    <h5> <i class="bi bi-youtube"></i> www.www.www </h5>
+                    <a href="https://www.youtube.com/@StudioIA-ic1rt" target="_blank">
+                        <h5><i class="bi bi-youtube" style="color: red;"></i> YouTube </h5>
+                    </a>
                 </div>
                 <br>
                 <div class="ratio ratio-16x9">
