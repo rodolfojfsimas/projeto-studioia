@@ -1,3 +1,4 @@
+<link rel="icon" type="image/png" sizes="32x32" href="/iconfavicon.png">
 @extends('layouts.app-welcome')
 @section('content')
     <br>

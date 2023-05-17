@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Studio.IA | Editor</title>
-    <link rel="icon" href="book2.png" type="image/png" sizes="16x16">
+    <link rel="icon" type="image/png" sizes="16x16" href="/iconfavicon.png">
+
 
     @stack('css')
     @stack('scripts')

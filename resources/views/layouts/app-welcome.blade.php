@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Studio.IA | Bem-Vindo</title>
-    <link rel="icon" href="logoface.png" type="image/png" sizes="16x16">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/iconfavicon.png">
+
 
     <!-- Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"

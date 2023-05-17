@@ -1,4 +1,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link rel="icon" type="image/png" sizes="32x32" href="/iconfavicon.png">
 @extends('layouts.app-welcome')
 @section('content')
     <br>
@@ -25,7 +26,7 @@
             </div>
             <div class="col-md-7">
                 <!--<input type="text" name="ferramentas" id="ferramentas" class="form-control"
-                                                                                        placeholder="Pesquisar Ferramentas">-->
+                                                                                            placeholder="Pesquisar Ferramentas">-->
             </div>
         </div>
 
