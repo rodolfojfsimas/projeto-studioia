@@ -26,7 +26,7 @@
             </div>
             <div class="col-md-7">
                 <!--<input type="text" name="ferramentas" id="ferramentas" class="form-control"
-                                                                                                placeholder="Pesquisar Ferramentas">-->
+                                                                                                    placeholder="Pesquisar Ferramentas">-->
             </div>
         </div>
 
@@ -121,16 +121,16 @@
 
             // Se nenhum checkbox estiver marcado, mostre todos os itens
             if (checkboxes.length === 0) {
-                $('.item-bootstrap').show();
+                $('.item-bootstrap').parent().show(); // Show the parent element of item-bootstrap
             } else {
                 // Oculte todos os itens
-                $('.item-bootstrap').hide();
+                $('.item-bootstrap').parent().hide(); // Hide the parent element of item-bootstrap
 
                 // Mostre apenas os itens cujas classes correspondem aos valores dos checkboxes marcados
                 checkboxes.each(function() {
                     var classe = $(this).val();
-                    $('.' + classe).closest('.item-bootstrap').show();
-                    //           $('.' + classe).show();
+                    $('.' + classe).parent()
+                .show(); // Show the parent element of the matched item-bootstrap
                 });
             }
         }
