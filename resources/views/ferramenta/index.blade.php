@@ -26,7 +26,7 @@
             </div>
             <div class="col-md-7">
                 <!--<input type="text" name="ferramentas" id="ferramentas" class="form-control"
-                                                                                            placeholder="Pesquisar Ferramentas">-->
+                                                                                                placeholder="Pesquisar Ferramentas">-->
             </div>
         </div>
 
@@ -129,7 +129,8 @@
                 // Mostre apenas os itens cujas classes correspondem aos valores dos checkboxes marcados
                 checkboxes.each(function() {
                     var classe = $(this).val();
-                    $('.' + classe).show();
+                    $('.' + classe).closest('.item-bootstrap').show();
+                    //           $('.' + classe).show();
                 });
             }
         }
