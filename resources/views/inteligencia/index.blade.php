@@ -18,7 +18,7 @@
                                         <div class="row g-0">
                                             <div class="col-3">
                                                 <img src="{{ URL::to('/') }}/storage/{{ $inteligencia->imagem }}"
-                                                    class="img-fluid" alt="..." id="img-card" />
+                                                    class="img-fluid .mx-auto" alt="..." id="img-card" />
                                             </div>
                                             <div class="col-9">
                                                 <div class="card-body" id="card-body-artigo">
