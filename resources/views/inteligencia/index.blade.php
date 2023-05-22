@@ -16,7 +16,7 @@
                                 <a href="{{ route('inteligencia.show', $inteligencia->id) }}">
                                     <div class="card mb-3" id="card-artigo-ai">
                                         <div class="row g-0">
-                                            <div class="col-3" style="padding:20px;">
+                                            <div class="col-3">
                                                 <img src="{{ URL::to('/') }}/storage/{{ $inteligencia->imagem }}"
                                                     class="img-fluid .mx-auto" alt="..." id="img-card" />
                                             </div>
