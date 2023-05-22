@@ -7,7 +7,7 @@
         <div id="full" style="background-color: rgb(242,242,242);">
             <div style="background-color: rgb(242,242,242);">
                 <div class="row">
-                    <div class="col-6" id="fullcodigo">
+                    <div class="col-md-6" id="fullcodigo">
                         <div class="card" id="cardeditor">
                             <div class="card-header">
                                 <span id="titulo-editor">Editor</span>
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6" id="fullpainel">
+                    <div class="col-md-6" id="fullpainel">
                         <div class="card" id="cardeditor">
                             <div class="card-header">
                                 <span id="titulo-editor">Visualização</span>
