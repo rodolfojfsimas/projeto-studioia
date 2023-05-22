@@ -20,8 +20,8 @@ class WelcomeController extends Controller
     public function index()
     {
         $projeto = Phome::all();
-        $inteligencia = Inteligencia::orderBy('created_at', 'desc')->get();
-        $prompt = Prompt::all();
+        $inteligencia = Inteligencia::orderBy('created_at', 'desc')->take(3)->get();
+        $prompt = Prompt::orderBy('created_at', 'desc')->take(3)->get();
         $publico = Publico::all();
         $empresa = Empresa::all();
 

@@ -14,7 +14,7 @@ class PromptController extends Controller
      */
     public function index()
     {
-        $prompt = Prompt::all();
+        $prompt = Prompt::orderBy('created_at', 'desc')->get();
         return view('prompt.index', compact('prompt'));
     }
 
