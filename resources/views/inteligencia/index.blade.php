@@ -3,7 +3,7 @@
 @extends('layouts.app-welcome')
 @section('content')
     <div class="container-fluid">
-        <div class="row g-4">
+        <div class="row g-3">
             <div class="col-md-4">
                 <div id="artigo-list-ai">
                     <div class="card" id="card-aside-artigo">
@@ -33,8 +33,6 @@
                                     </div>
                                 </a>
                             @endforeach
-
-
                         </div>
                     </div>
                 </div>
