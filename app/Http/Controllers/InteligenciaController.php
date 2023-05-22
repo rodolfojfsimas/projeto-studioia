@@ -14,7 +14,7 @@ class InteligenciaController extends Controller
      */
     public function index()
     {
-        $inteligencia = Inteligencia::all();
+        $inteligencia = Inteligencia::orderBy('created_at', 'desc')->get();
         return view('inteligencia.index', compact('inteligencia'));
     }
 
