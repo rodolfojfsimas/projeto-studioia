@@ -6,7 +6,7 @@
         <br>
         <div id="full" style="background-color: rgb(242,242,242);">
             <div style="background-color: rgb(242,242,242);">
-                <div class="row">
+                <div class="row g-1">
                     <div class="col-md-6" id="fullcodigo">
                         <div class="card" id="cardeditor">
                             <div class="card-header">
