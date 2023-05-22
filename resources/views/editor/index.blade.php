@@ -6,7 +6,7 @@
         <br>
         <div id="full" style="background-color: rgb(242,242,242);">
             <div style="background-color: rgb(242,242,242);">
-                <div class="row g-1">
+                <div class="row">
                     <div class="col-md-6" id="fullcodigo">
                         <div class="card" id="cardeditor">
                             <div class="card-header">
@@ -62,10 +62,7 @@
                             <div class="card-body">
                                 <iframe id="preview" scrolling="auto | yes | no" scrolling="no" width="720"
                                     height="730">
-
-
                                 </iframe>
-
                             </div>
                         </div>
                     </div>
