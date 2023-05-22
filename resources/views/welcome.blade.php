@@ -288,7 +288,7 @@
                     <div id="artigo-list-ai-home">
                         <div class="card" style="border: transparent;">
                             <div class="card-body" id="">
-                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="row row-cols-1 row-cols-md-3 g-2">
                                     @foreach ($inteligencia as $inteligencia)
                                         <a href="{{ route('ainteligencia.show', $inteligencia->id) }}">
                                             <div class="card mb-3" id="card-artigo-ai">
@@ -324,7 +324,7 @@
 
                     <div class="card" style="border: transparent;">
                         <div class="card-body" id="">
-                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="row row-cols-1 row-cols-md-3 g-2">
                                 @foreach ($prompt as $prompt)
                                     <a href="{{ route('aprompt.show', $prompt->id) }}">
                                         <div class="card mb-3" id="card-artigo-ai">
