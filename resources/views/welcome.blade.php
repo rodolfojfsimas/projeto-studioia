@@ -329,11 +329,11 @@
                                     <a href="{{ route('aprompt.show', $prompt->id) }}">
                                         <div class="card mb-3" id="card-artigo-ai">
                                             <div class="row g-0">
-                                                <div class="col-md-3">
+                                                <div class="col-3">
                                                     <img src="{{ URL::to('/') }}/storage/{{ $prompt->imagem }}"
                                                         class="img-fluid" alt="..." id="img-card" />
                                                 </div>
-                                                <div class="col-md-9">
+                                                <div class="col-9">
                                                     <div class="card-body" id="card-body-artigo">
                                                         <p class="card-text"><small
                                                                 class="text-body-secondary">{{ $prompt->data }}</small>
