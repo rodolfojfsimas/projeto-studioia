@@ -7,6 +7,11 @@
 
     <title>Studio.IA | Bem-Vindo</title>
 
+    <meta name="description"
+        content="Studio.IA é uma empresa focada em inteligência artificial, oferecendo ferramentas, projetos, consultoria e um editor HTML interativo.">
+    <meta name="keywords"
+        content="Inteligência Artificial, IA, Ferramentas de IA, Projetos de IA, Consultoria de IA, Editor HTML, Tecnologia, Engenharia de Prompt, Machine Learning, Deep Learning, Ciência de Dados">
+
     <link rel="icon" type="image/png" sizes="16x16" href="/iconfavicon.png">
 
 
@@ -29,6 +34,19 @@
     <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/c489be23d9.js" crossorigin="anonymous"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2B7HLWM1PN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2B7HLWM1PN');
+    </script>
 
 </head>
 
