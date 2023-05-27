@@ -150,13 +150,10 @@
                         desenvolvidos com as
                         incríveis ferramentas de inteligência artificial e muita programação!
                         <br><br>
-                        Fique atualizado através
-                        de nosso site e
+                        Fique atualizado acompanhando o
                         canal
                         do <a href="https://www.youtube.com/@StudioIA-ic1rt" target="_blank"><i class="bi bi-youtube"
-                                style="color: red;"></i> YouTube</a>, onde fornecemos detalhes sobre todas
-                        as etapas e comandos
-                        utilizados.
+                                style="color: red;"></i> YouTube</a>, e no site explicamos sobre cada trabalho.
                     </h5>
                 </div>
                 <div class="col-md-6">
@@ -215,7 +212,7 @@
                                                                     <div class="col-md-6">
                                                                         <div class="card" id="card-modal">
                                                                             <h5 style="color:#f2b800; font-weight:bold;">
-                                                                                Etapas</h5>
+                                                                                Sobre</h5>
                                                                             <br>
                                                                             <p>{!! nl2br($item->content) !!}</p>
                                                                         </div>

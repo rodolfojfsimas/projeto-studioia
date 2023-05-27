@@ -50,7 +50,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="card" id="card-modal">
-                                                <h5 style="color:#f2b800; font-weight:bold;">Etapas</h5>
+                                                <h5 style="color:#f2b800; font-weight:bold;">Sobre</h5>
                                                 <br>
                                                 <p>{!! nl2br($projeto->content) !!}</p>
                                             </div>
