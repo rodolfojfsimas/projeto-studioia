@@ -32,46 +32,47 @@
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade" id="myModal{{ $projeto->id }}" tabindex="-1"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-scrollable">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4 class="modal-title" id="myModalLabel">{{ $projeto->titulo }}</h4>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <h3 id="subtitulo-slide"> {{ $projeto->resumo }}</h3>
-                                    <br>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="card" id="card-modal">
-                                                <h5 style="color:#f2b800; font-weight:bold;">Sobre</h5>
-                                                <br>
-                                                <p>{!! nl2br($projeto->content) !!}</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <img src="{{ URL::to('/') }}/storage/{{ $projeto->imagem }}" class="img-fluid"
-                                                alt="Projetos" id="" style="max-height: 320px; width:auto;" />
+                </div>
+                <div class="modal fade" id="myModal{{ $projeto->id }}" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="myModalLabel">{{ $projeto->titulo }}</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3 id="subtitulo-slide"> {{ $projeto->resumo }}</h3>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card" id="card-modal">
+                                            <h5 style="color:#f2b800; font-weight:bold;">Sobre</h5>
                                             <br>
-                                            <br>
-                                            <a href="{{ $projeto->urlvideo }}" target=”_blank”>
-                                                <button class="btn btn-danger" type="button"><i
-                                                        class="bi bi-play-btn-fill"></i>
-                                                    Assistir
-                                                    video</button>
-                                            </a>
+                                            <p>{!! nl2br($projeto->content) !!}</p>
                                         </div>
                                     </div>
-                                    <br>
-                                    <h5 id="subtitulo-modal-programas">Tecnologias Uilizadas: {{ $projeto->programas }}
-                                    </h5>
+                                    <div class="col-md-6">
+                                        <img src="{{ URL::to('/') }}/storage/{{ $projeto->imagem }}" class="img-fluid"
+                                            alt="Projetos" id="" style="max-height: 320px; width:auto;" />
+                                        <br>
+                                        <br>
+                                        <a href="{{ $projeto->urlvideo }}" target=”_blank”>
+                                            <button class="btn btn-danger" type="button"><i
+                                                    class="bi bi-play-btn-fill"></i>
+                                                Assistir
+                                                video</button>
+                                        </a>
+                                    </div>
                                 </div>
+                                <br>
+                                <h5 id="subtitulo-modal-programas">Tecnologias Uilizadas: {{ $projeto->programas }}
+                                </h5>
                             </div>
                         </div>
                     </div>
+                </div>
             @endforeach
         </div>
     </div>
