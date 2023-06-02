@@ -15,20 +15,22 @@
             @foreach ($projeto as $projeto)
                 <div class="col">
                     <div class="card h-100" id="card-projeto">
-                        <img src="{{ URL::to('/') }}/storage/{{ $projeto->imagem }}" class="img-fluid" alt="Projetos"
-                            id="img-projeto" />
+                        <div id="container">
+                            <img src="{{ URL::to('/') }}/storage/{{ $projeto->imagem }}" class="img-fluid" alt="Projetos"
+                                id="img-projeto" />
+                            <div class="middle">
+                                <button type="button" class="btn" id="btn-abrir-projeto" data-bs-toggle="modal"
+                                    data-bs-target="#myModal{{ $projeto->id }}">
+                                    Abrir Projeto
+                                </button>
+                            </div>
 
-                        <div class="middle">
-                            <button type="button" class="btn" id="btn-abrir-projeto" data-bs-toggle="modal"
-                                data-bs-target="#myModal{{ $projeto->id }}">
-                                Abrir Projeto
-                            </button>
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">{{ $projeto->titulo }}</h5>
-                            <div>
-                                <button type="button" class="btn d-inline p-2" id="data">{{ $projeto->data }}</button>
+                            <div class="card-body">
+                                <h5 class="card-title">{{ $projeto->titulo }}</h5>
+                                <div>
+                                    <button type="button" class="btn d-inline p-2"
+                                        id="data">{{ $projeto->data }}</button>
+                                </div>
                             </div>
                         </div>
                     </div>
