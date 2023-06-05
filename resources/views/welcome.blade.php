@@ -1,6 +1,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <link rel="icon" type="image/png" sizes="32x32" href="/iconfavicon.png">
 
+<meta name="description"
+    content="Studio.IA é uma empresa focada em inteligência artificial, oferecendo ferramentas, projetos, consultoria e um editor HTML interativo.">
+<meta name="keywords"
+    content="Inteligência Artificial, IA, Ferramentas de IA, Projetos de IA, Consultoria de IA, Editor HTML, Tecnologia, Engenharia de Prompt, Machine Learning, Deep Learning, Ciência de Dados">
+
 @extends('layouts.app-welcome')
 @section('content')
     <div class="container-xl">
