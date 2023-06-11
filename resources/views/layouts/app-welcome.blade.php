@@ -3,6 +3,20 @@
 
 <head>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XDQJ0B3945"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XDQJ0B3945');
+    </script>
+
+
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -24,9 +38,6 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
 
 
     <title>Studio.IA | Bem-Vindo</title>
@@ -59,18 +70,6 @@
 
     <script src="https://kit.fontawesome.com/c489be23d9.js" crossorigin="anonymous"></script>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2B7HLWM1PN"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-2B7HLWM1PN');
-    </script>
 
 </head>
 
