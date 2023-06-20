@@ -34,6 +34,10 @@
 </script>
 <!-- End Google Tag Manager -->
 
+<meta name="description" content="Aprenda com a Studio.IA. Temos um rico conteúdo sobre engenharia de prompt">
+<meta name="keywords"
+    content="Inteligência Artificial, IA, Ferramentas de IA, Projetos de IA, Consultoria de IA, Editor HTML, Tecnologia, Engenharia de Prompt, Machine Learning, Deep Learning, Ciência de Dados">
+
 @extends('layouts.app-welcome')
 @section('content')
     <div class="container-fluid">

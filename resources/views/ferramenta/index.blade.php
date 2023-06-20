@@ -30,6 +30,11 @@
 </script>
 <!-- End Google Tag Manager -->
 
+<meta name="description" content="Descubra as incríveis ferramentas de inteligência artificial.">
+<meta name="keywords"
+    content="Inteligência Artificial, IA, Ferramentas de IA, Projetos de IA, Consultoria de IA, Editor HTML, Tecnologia, Engenharia de Prompt, Machine Learning, Deep Learning, Ciência de Dados">
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <link rel="icon" type="image/png" sizes="32x32" href="/iconfavicon.png">
@@ -59,7 +64,7 @@
             </div>
             <div class="col-md-7">
                 <!--<input type="text" name="ferramentas" id="ferramentas" class="form-control"
-                                                                                                            placeholder="Pesquisar Ferramentas">-->
+                                                                                                                placeholder="Pesquisar Ferramentas">-->
             </div>
         </div>
 

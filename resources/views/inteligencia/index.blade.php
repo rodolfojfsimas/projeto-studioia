@@ -31,7 +31,9 @@
 </script>
 <!-- End Google Tag Manager -->
 
-
+<meta name="description" content="Aprenda com a Studio.IA. Temos um rico conteúdo sobre inteligência artifical">
+<meta name="keywords"
+    content="Inteligência Artificial, IA, Ferramentas de IA, Projetos de IA, Consultoria de IA, Editor HTML, Tecnologia, Engenharia de Prompt, Machine Learning, Deep Learning, Ciência de Dados">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <link rel="icon" type="image/png" sizes="32x32" href="/iconfavicon.png">
